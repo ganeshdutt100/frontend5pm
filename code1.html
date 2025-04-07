@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first webpage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            border-radius: 30px;
+            margin: 5px 20px;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 18px;
+            font-family: sans-serif;
+        }
+
+        .list {
+            display: flex;
+            gap: 20px;
+        }
+
+        .list a {
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: sans-serif;
+        }
+
+        .list a:hover {
+            color: yellow;
+        }
+
+        /* section1 */
+        .container {
+            display: flex;
+            margin: 10px 15px;
+            gap: 10px;
+        }
+
+        .sec1Text {}
+
+        .sec1Text h1 span {
+            color: red;
+        }
+
+        .sec1Image img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">LOGO</div>
+        <div class="list">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <!-- section 1 -->
+    <div class="sec1 container">
+        <div class="sec1Text">
+            <h1>Lorem ipsum <span>dolor</span>
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In aperiam soluta autem ratione facilis ullam
+                illum totam harum quos iure quidem, esse ducimus voluptas eius nihil beatae dignissimos unde ut!
+            </p>
+            <button>Click me </button>
+        </div>
+
+        <div class="sec1Image">
+            <img src="https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?ga=GA1.1.2119263465.1737454592&semt=ais_country_boost&w=740"
+                alt="">
+        </div>
+
+    </div>
+</body>
+
+</html>
